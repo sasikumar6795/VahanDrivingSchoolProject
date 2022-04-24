@@ -12,7 +12,6 @@ body {
      display: flex;
      justify-content: space-between;
      align-items: center;
-     background-color: white;
      color: black;
 }
 
@@ -77,6 +76,12 @@ body {
 
 @media (max-width:400px)
 {
+    .brand-title {
+        height: 220px;
+        width: 200px;
+        padding: 40px 20px;
+        margin-left: 90px;
+    }
     .toggle-button {
         display: flex;
     }
